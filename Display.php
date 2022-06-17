@@ -3,7 +3,7 @@
 $server="localhost";                    //server name
 $user="root";                           //user name
 $password="";                           //password is empty for sql
-$db="db_movies";                              //database name
+$db="dbmovies";                              //database name
 
 $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
 ?>
