@@ -3,7 +3,7 @@
 $server="localhost";                    //server name
 $user="root";                           //user name
 $password="";                           //password is empty for sql
-$db="db_movies";                              //database name
+$db="dbmovies";                              //database name
 
 $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
 ?>
@@ -12,7 +12,7 @@ $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
 <head>
 	<title>Employee details</title>
 	<link rel="stylesheet" href="dashboardGB.css" type="text/css"/>
-    <link rel="stylesheet" href="tablenew.css" type="text/css"/>
+    <link rel="stylesheet" href="Tablenew.css" type="text/css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
