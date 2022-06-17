@@ -69,7 +69,7 @@ $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
               {
                 echo '<script type="text/javascript">';
                 echo 'alert("No records found");';
-                echo 'window.location.href="display.php";';
+                echo 'window.location.href="Display.php";';
                 echo "</script>";  
               }
             }
